@@ -1,0 +1,36 @@
+.euiHeaderLogo {
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  color: #006BB4;
+  text-align: left;
+  position: relative;
+  height: 48px;
+  line-height: 48px;
+  min-width: 49px;
+  padding: 0 13px 0 12px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.euiHeaderLogo:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background: rgba(105, 112, 125, 0.5);
+}
+
+
+.euiHeaderLogo__text {
+  margin: 0;
+  padding: 0;
+  border: none;
+  vertical-align: baseline;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: -0.025em;
+  padding-left: 16px;
+  font-weight: 300;
+  color: #FFF;
+}
